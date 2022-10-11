@@ -1,0 +1,36 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: ;
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: hotpink;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 20%;
+}
+span{
+    color: black;
+}
+.btn{
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 3opx;
+}
