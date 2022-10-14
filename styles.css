@@ -195,30 +195,69 @@ h3 {
 }
 
 .contact-us {
-  padding: 0 20%;
+  padding: 2% 15%;
   display: flex;
-  height: 50rem;
   font-size: 16px;
   font-family: OpenSans-Regular;
   margin: auto;
+  background-color: #222429;
+  color: white;
 }
 .purple-left {
   width: 35%;
   text-align: left;
   background-color: rgb(79, 6, 148);
   color: white;
-  padding: 0 1rem 0 2rem;
+  padding: 30px 1rem 0 2rem;
   border-radius: 1rem 0 0 1rem;
 }
 .white-right {
   width: 65%;
   text-align: left;
-  color: black;
-  padding-left: 24rem;
+  padding-left: 12rem;
+  padding-top: 6rem;
 }
 .text-wild {
     color:blanchedalmond;
     margin-bottom: 14px;
+}
+
+.form {
+    margin-top: 40px
+}
+.fill-up {
+    margin-top: 20px;
+}
+input {
+    width: 38rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 0 12px;
+    cursor: pointer;
+}
+textarea {
+    width: 38rem;
+    height: 15rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+button {
+    color: white;
+    background-color:rgb(79, 6, 148);
+    padding: 1rem 0;
+    width: 38rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+
 }
 
 /* Helper Classes */
